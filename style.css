@@ -1,0 +1,178 @@
+h1 {
+    background: #FF87AB;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    padding: 5px;
+    border: 5px solid #B388EB;
+    border-radius: 45px;
+    box-shadow: 10px 10px 10px;
+}
+
+body {
+    background-color: #FFE5EC;
+    font-family: monospace;
+    color: #602437;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    border: 5px solid #B388EB;
+    box-shadow: 10px 10px 10px;
+}
+
+.navbar > a {
+    flex: 2;
+    font-size: 2em;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.background, .home, .fun-facts {
+    display: flex;
+    background-color: #FF7096;
+    justify-content: center;
+}
+
+
+.picture {
+    width: 150px;
+    border:4px solid #2e294e;
+    box-shadow: 5px 5px 1px 1px;
+}
+
+.about-me {
+    background-color: #ea7af4;
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+    border: 5px solid #a74482;
+    margin: 30px auto;
+    box-shadow: 10px 10px 5px;
+    justify-content: space-evenly;
+    padding: 15px 0;
+}
+
+
+
+.background-section {
+    font-size: 2em;
+    border: 5px solid #a74482;
+    margin: 30px auto;
+    height: 630px;
+    text-align: center;
+    background-color: #ff36ab ;
+    box-shadow: 10px 10px 5px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+.la-img {
+    box-shadow: 10px 10px 10px 5px;
+}
+
+.karla-img {
+    box-shadow: 10px 10px 10px 5px;
+}
+
+.supermom-img {
+    box-shadow: 10px 10px 10px 5px;
+}
+
+html, body {
+    height: 100%;
+}
+
+.background-section > img {
+    border: 4px solid #2e294e;
+}
+
+
+.hobbies-section {
+    background-color: #ec91d8;
+    margin: 25px 0;
+    border: 5px solid #a74482;
+    box-shadow: 10px 10px 5px;
+}
+
+.hobby-header {
+    font-size: 2em;
+    text-align: center;
+}
+
+.hobbies-txt {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
+.hobbies-imgs {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border: 4px solid #2e294e;
+    box-shadow: 10px 10px 10px 5px;
+}
+
+
+.proudmom {
+    display: flex;
+    justify-content: center;
+}
+
+.headers {
+    text-align: center;
+}
+
+.skills-header {
+    font-size: 2em;
+    border: 5px solid #a74482;
+    background-color: #d782ba;
+    margin: 2px;
+    box-shadow: 10px 10px 5px;
+}
+
+.experience-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.funfacts-title {
+    font-size: 2em;
+    text-align: center;
+}
+
+.funfacts-header {
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.facts-section {
+    display: flex;
+    justify-content: center;
+}
+
+.facts-section ul {
+    font-size: 2em;
+}
+
+.funfacts-section {
+    border: 5px solid #a74482;
+    margin: 30px 0;
+    background-color: #ff758f;
+    box-shadow: 10px 10px 5px;
+}
+
+.creator {
+    font-size: 2em;
+}
+
+.creator a {
+    text-decoration: none;
+}
